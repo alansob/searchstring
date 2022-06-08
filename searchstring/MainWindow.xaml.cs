@@ -57,12 +57,12 @@ namespace searchstring
 
 
 				// Boyer-Moore 
-				Stopwatch sw3 = new Stopwatch();
+				/*Stopwatch sw3 = new Stopwatch();
 				sw3.Start();
 				int bmResult = BoyerMoore(SearchPhrase, text);
 				sw3.Stop();
 				Label bmLbl = (Label)FindName("BMlabel");
-				bmLbl.Content = "Count: " + bmResult + ", Time (s): " + sw3.Elapsed.TotalSeconds;
+				bmLbl.Content = "Count: " + bmResult + ", Time (s): " + sw3.Elapsed.TotalSeconds;*/
 			}
 		}
 		private int BruteForce(string[] lines, string searchPhrase)
@@ -148,7 +148,7 @@ namespace searchstring
 				}
 			}
 		}
-		private static int[] BuildBadCharTable2(char[] needle)
+		/*private static int[] BuildBadCharTable2(char[] needle)
 		{
 			int[] badShift = new int[256];
 			for (int i = 0; i < 256; i++)
@@ -189,6 +189,6 @@ namespace searchstring
 				offset += badShift[(int)haystack[offset + last]];
 			}
 			return -1;
-		}
+		}*/
 	}
 }
