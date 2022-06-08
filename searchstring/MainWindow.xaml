@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Search Program" HorizontalAlignment="Left" Margin="235,10,0,0" VerticalAlignment="Top" Width="293" FontSize="36" FontWeight="Bold"/>
+        <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Margin="132,105,0,0" Text="search:" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" Height="33" FontSize="18"/>
+        <Button x:Name="SearchButton" Content="SEARCH" HorizontalAlignment="Left" Margin="501,105,0,0" VerticalAlignment="Top" Height="33" Width="90" FontSize="20" FontWeight="Normal" FontStyle="Normal"/>
+        <Label Content="Brute Force" HorizontalAlignment="Left" Margin="132,170,0,0" VerticalAlignment="Top" Width="105" FontSize="18" Height="33" FontWeight="Normal"/>
+        <Label Content="KMP" HorizontalAlignment="Left" Margin="132,217,0,0" VerticalAlignment="Top" Height="33" Width="105" FontSize="18"/>
+        <Label Content="Boyer-Moore" HorizontalAlignment="Left" Margin="132,270,0,0" VerticalAlignment="Top" Width="117" Height="34" FontSize="18"/>
+        <Label x:Name="BFlabel" Content="." HorizontalAlignment="Left" Margin="425,176,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="KMPlabel" Content="." HorizontalAlignment="Left" Margin="425,223,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="BMlabel" Content="." HorizontalAlignment="Left" Margin="425,276,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
